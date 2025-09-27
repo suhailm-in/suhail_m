@@ -1,0 +1,41 @@
+
+[
+  {
+    "id": 1,
+    "title": "The Rise of AI in Cyber Defense",
+    "description": "How artificial intelligence is revolutionizing real-time threat detection and prevention.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "author": "Muhammed",
+    "date": "Sep 15, 2025",
+    "readMoreUrl": "https://example.com/ai-in-cyber-defense",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Mastering Secure Web App Architecture",
+    "description": "Key principles and best practices for designing resilient, secure, and scalable web systems.",
+    "image": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "author": "Muhammed",
+    "date": "Sep 20, 2025",
+    "readMoreUrl": "https://example.com/secure-web-apps"
+  },
+  {
+    "id": 3,
+    "title": "Ethical Hacking in the Era of AI",
+    "description": "A fresh look at how AI is reshaping penetration testing and red-team practices.",
+    "image": "https://plus.unsplash.com/premium_photo-1720287601920-ee8c503af775?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "author": "Muhammed",
+    "date": "Oct 1, 2025",
+    "readMoreUrl": "https://example.com/ethical-hacking-ai"
+  },
+  {
+    "id": 4,
+    "title": "Cloud Security Trends 2025",
+    "description": "Emerging strategies to protect cloud-native infrastructures from sophisticated cyber threats.",
+    "image": "https://plus.unsplash.com/premium_photo-1720287601920-ee8c503af775?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "author": "Muhammed",
+    "date": "Oct 10, 2025",
+    "readMoreUrl": "https://example.com/cloud-security-trends"
+  }
+]
+

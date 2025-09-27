@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "AI-Powered Threat Detection",
+    "category": "AI",
+    "image": "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "An enterprise-grade platform leveraging machine learning to detect anomalies and mitigate cyber threats in real-time.",
+    "tags": ["AI", "Security", "Cloud"],
+    "demoUrl": "https://example.com/ai-threat-demo",
+    "githubUrl": "https://github.com/username/ai-threat-detection"
+  },
+  {
+    "id": 2,
+    "title": "Red Team Simulation Toolkit",
+    "category": "Cybersecurity",
+    "image": "https://plus.unsplash.com/premium_photo-1723601137214-1d5bfe3181f6?q=80&w=886&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A comprehensive offensive security toolkit for simulating real-world attacks, designed to strengthen organizational defenses.",
+    "tags": ["Cybersecurity", "PenTesting", "Automation"],
+    "demoUrl": "https://example.com/red-team-toolkit",
+    "githubUrl": "https://github.com/username/red-team-toolkit"
+  },
+  {
+    "id": 3,
+    "title": "Next-Gen Portfolio Website",
+    "category": "Web",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A sleek, responsive personal portfolio website featuring dark/light modes, gradient accents, and premium animations.",
+    "tags": ["React", "Tailwind", "Design"],
+    "demoUrl": "https://example.com/portfolio",
+    "githubUrl": "https://github.com/username/portfolio"
+  },
+  {
+    "id": 4,
+    "title": "Cloud-Native Security Dashboard",
+    "category": "Web",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "An interactive dashboard providing live threat analytics, compliance reports, and vulnerability trends for cloud systems.",
+    "tags": ["Cloud", "Security", "Dashboard"],
+    "demoUrl": "https://example.com/security-dashboard",
+    "githubUrl": "https://github.com/username/security-dashboard"
+  },
+  {
+    "id": 5,
+    "title": "AI-Driven Code Auditor",
+    "category": "AI",
+    "image": "https://plus.unsplash.com/premium_photo-1676637656166-cb7b3a43b81a?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A smart code-analysis engine that detects insecure code patterns and suggests automated remediation.",
+    "tags": ["AI", "Code Analysis", "Security"],
+    "demoUrl": "https://example.com/code-auditor",
+    "githubUrl": "https://github.com/username/ai-code-auditor"
+  },
+  {
+    "id": 6,
+    "title": "Zero-Trust Network Visualizer",
+    "category": "Cybersecurity",
+    "image": "https://plus.unsplash.com/premium_photo-1661764393655-1dbffee8c0ce?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A visualization tool for mapping user access flows, enforcing least-privilege policies, and monitoring zero-trust architectures.",
+    "tags": ["Zero Trust", "Visualization", "Security"],
+    "demoUrl": "https://example.com/zero-trust",
+    "githubUrl": "https://github.com/username/zero-trust-visualizer"
+  }
+]

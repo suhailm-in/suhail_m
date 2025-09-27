@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  /* background: #0a0a0a;
+  color: #f3f4f6; */
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background: linear-gradient(
+    to bottom,
+    #0a0a0a 0%,       /* Dark top */
+    #0d0d0d 30%,      /* Slightly lighter */
+    #111827 60%,      /* Mid tone */
+    #0a0a0a 100%      /* Dark again */
+  );
+  background-attachment: fixed;  /* For smooth scrolling */
+}
+
+
+
+@layer utilities {
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 0.8s step-end infinite;
+  }
+}
+
+
+@layer utilities {
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  .animate-loading-bar {
+    animation: loading 0.8s ease infinite;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}

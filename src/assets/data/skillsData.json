@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Frontend Development",
+    "icon": "Layers",
+    "items": [
+      { "name": "HTML", "level": "Experienced" },
+      { "name": "CSS / SASS", "level": "Experienced" },
+      { "name": "JavaScript (ES6+)", "level": "Advanced" },
+      { "name": "TypeScript", "level": "Intermediate" },
+      { "name": "React / Next.js", "level": "Advanced" },
+      { "name": "Material UI / Tailwind", "level": "Intermediate" }
+    ]
+  },
+  {
+    "category": "Backend & Tools",
+    "icon": "Server",
+    "items": [
+      { "name": "Node.js", "level": "Advanced" },
+      { "name": "Express.js", "level": "Intermediate" },
+      { "name": "PostgreSQL / MongoDB", "level": "Intermediate" },
+      { "name": "REST API & GraphQL", "level": "Intermediate" },
+      { "name": "Git / GitHub", "level": "Advanced" },
+      { "name": "CI/CD & Docker", "level": "Basic" }
+    ]
+  },
+  {
+    "category": "Cybersecurity & AI",
+    "icon": "Terminal",
+    "items": [
+      { "name": "Penetration Testing", "level": "Advanced" },
+      { "name": "Threat Detection & SOC", "level": "Experienced" },
+      { "name": "Secure Coding Practices", "level": "Experienced" },
+      { "name": "AI-driven Security Models", "level": "Intermediate" },
+      { "name": "ML for Threat Analysis", "level": "Intermediate" }
+    ]
+  }
+]
