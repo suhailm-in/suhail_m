@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 import { FaDev, FaMediumM } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { LuGithub } from "react-icons/lu";
@@ -12,7 +13,6 @@ import {
 import { MdOutlineMail } from "react-icons/md";
 
 const Contact = () => {
-
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -21,6 +21,19 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        emailjs
+            .sendForm(
+                import.meta.env.VITE_SERVICE_ID,
+                import.meta.env.VITE_TEMPLATE_ID,
+                e.target,
+                import.meta.env.VITE_PUBLIC_KEY
+            )
+            .then((response) => {
+                alert("Message Sent!");
+                setFormData({ name: "", email: "", message: "" });
+            })
+            .catch(() => alert("Oops! Somthing went wrong. please try again."));
     };
 
     return (
@@ -67,7 +80,7 @@ const Contact = () => {
                                         className="text-cyan-400"
                                         size={20}
                                     />
-                                    +91  123 456 7890
+                                    +91 123 456 7890
                                 </li>
                                 <li className="flex items-center gap-3">
                                     <FiMapPin
