@@ -5,31 +5,37 @@
     "items": [
       { "name": "HTML", "level": "Experienced" },
       { "name": "CSS / SASS", "level": "Experienced" },
-      { "name": "JavaScript (ES6+)", "level": "Advanced" },
+      { "name": "Bootstrap", "level": "Experienced" },
+      { "name": "Material UI / Tailwind", "level": "Advanced" },
+      { "name": "JavaScript (ES6+)", "level": "Experienced" },
       { "name": "TypeScript", "level": "Intermediate" },
-      { "name": "React / Next.js", "level": "Advanced" },
-      { "name": "Material UI / Tailwind", "level": "Intermediate" }
+      { "name": "React", "level": "Experienced" },
+      { "name": "jQuery", "level": "Advanced" },
+      { "name": "Progressive Web App (PWA)", "level": "Intermediate" }
     ]
   },
   {
     "category": "Backend & Tools",
     "icon": "Server",
     "items": [
-      { "name": "Node.js", "level": "Advanced" },
-      { "name": "Express.js", "level": "Intermediate" },
-      { "name": "PostgreSQL / MongoDB", "level": "Intermediate" },
-      { "name": "REST API & GraphQL", "level": "Intermediate" },
-      { "name": "Git / GitHub", "level": "Advanced" },
-      { "name": "CI/CD & Docker", "level": "Basic" }
+      { "name": "Python", "level": "Advanced" },
+      { "name": "Django", "level": "Intermediate" },
+      { "name": "Flask", "level": "Basic" },
+      { "name": "PostgreSQL / MySQL", "level": "Intermediate" },
+      { "name": "MongoDB", "level": "Intermediate" },
+      { "name": "REST API & GraphQL", "level": "Experienced" },
+      { "name": "Git / GitHub", "level": "Experienced" }
     ]
   },
   {
     "category": "Cybersecurity & AI",
     "icon": "Terminal",
     "items": [
-      { "name": "Penetration Testing", "level": "Advanced" },
-      { "name": "Threat Detection & SOC", "level": "Experienced" },
-      { "name": "Secure Coding Practices", "level": "Experienced" },
+      { "name": "Ethical Hacking", "level": "Experienced" },
+      { "name": "Penetration Testing", "level": "Experienced" },
+      { "name": "Social Engineering", "level": "Experienced" },
+      { "name": "Bug Bounty Hunting", "level": "Advanced" },
+      { "name": "Secure Coding Practices", "level": "Advanced" },
       { "name": "AI-driven Security Models", "level": "Intermediate" },
       { "name": "ML for Threat Analysis", "level": "Intermediate" }
     ]

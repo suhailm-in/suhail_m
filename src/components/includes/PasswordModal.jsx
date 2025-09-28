@@ -19,7 +19,7 @@ const PasswordModal = ({ isOpen, onClose, onSuccess, correctPassword }) => {
 
     return (
         <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
-            <div className="bg-gray-900 text-white rounded-xl p-6 w-96 relative border border-cyan-500/20 shadow-[0_0_30px_rgba(6,182,212,0.3)] animate-fadeIn">
+            <div className="bg-gray-900 text-white rounded-xl p-6 w-96 mx-12 sm:mx-0 relative border border-cyan-500/20 shadow-[0_0_30px_rgba(6,182,212,0.3)] animate-fadeIn">
                 {/* Close Button */}
                 <button
                     onClick={() => {

@@ -7,7 +7,7 @@ const ArticlePage = () => {
     const others = articles.filter((item) => !item.featured);
 
     return (
-        <section id="articles" className="bg-transparent py-20">
+        <section id="articlespage" className="bg-transparent py-20">
             <div className="max-w-6xl mx-auto px-4 pt-14">
                 {/* Heading */}
                 <h2 className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">

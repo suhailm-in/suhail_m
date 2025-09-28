@@ -73,7 +73,7 @@ const AboutMe = () => {
                         </p>
 
                         {/* Quick Stats */}
-                        <div className="grid grid-cols-3 gap-4 mb-8">
+                        <div className="grid grid-cols-3 gap-4 mt-12 mb-12">
                             <div className="p-4 rounded-xl backdrop-blur-md bg-white/5 border border-cyan-500/10 hover:border-cyan-500/30 transition text-center">
                                 <ShieldCheck
                                     className="mx-auto text-cyan-400 mb-2"
@@ -152,9 +152,10 @@ const AboutMe = () => {
                                         Software Engineer
                                     </h4>
                                     <p className="text-gray-400 text-sm mt-2">
-                                        Building scalable, high-performance
-                                        applications with modern architectures
-                                        and secure coding practices.
+                                        Designing and developing scalable, secure, and
+                    high-performance applications using modern architectures,
+                    clean code practices, and robust engineering principles
+                    to drive innovation.
                                     </p>
                                 </div>
                             </div>
@@ -170,9 +171,10 @@ const AboutMe = () => {
                                         AI Enthusiast
                                     </h4>
                                     <p className="text-gray-400 text-sm mt-2">
-                                        Applying machine learning and AI-driven
-                                        insights to enhance security solutions
-                                        and develop innovative technologies.
+                                        Exploring the power of artificial intelligence and
+                    machine learning to create intelligent, adaptive
+                    solutions that transform security practices and enable
+                    next-generation technologies.
                                     </p>
                                 </div>
                             </div>
