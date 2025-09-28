@@ -11,11 +11,18 @@ import {
     FiTwitter,
 } from "react-icons/fi";
 import { MdOutlineMail } from "react-icons/md";
+import AlertBox from "../includes/AlertBox";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
+        message: "",
+    });
+
+    const [alert, setAlert] = useState({
+        show: false,
+        type: "",
         message: "",
     });
 
@@ -30,10 +37,22 @@ const Contact = () => {
                 import.meta.env.VITE_PUBLIC_KEY
             )
             .then((response) => {
-                alert("Message Sent!");
+                setAlert({
+                    show: true,
+                    type: "success",
+                    message: "Message Sent Successfully!",
+                });
                 setFormData({ name: "", email: "", message: "" });
+                setTimeout(() => setAlert({ show: false }), 4000);
             })
-            .catch(() => alert("Oops! Somthing went wrong. please try again."));
+            .catch(() => {
+                setAlert({
+                    show: true,
+                    type: "error",
+                    message: "Something went wrong. Please try again.",
+                });
+                setTimeout(() => setAlert({ show: false }), 4000);
+            });
     };
 
     return (
@@ -42,10 +61,16 @@ const Contact = () => {
             className="relative py-24 bg-transparent"
             // className="relative py-24 bg-gradient-to-b from-gray-950 via-black to-gray-900 overflow-hidden"
         >
+            {/* AlertBox */}
+            <AlertBox
+                show={alert.show}
+                type={alert.type}
+                message={alert.message}
+                onClose={() => setAlert({ show: false })}
+            />
+
             {/* Floating Gradient Blobs */}
             <div className="absolute -top-40 -left-40 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl animate-pulse"></div>
-            {/* <div className="absolute -top-40 -right-40 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl animate-pulse"></div> */}
-            {/* <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-ping"></div> */}
 
             <div className="max-w-6xl mx-auto px-4 relative z-10">
                 {/* Heading */}
