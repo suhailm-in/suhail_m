@@ -142,7 +142,7 @@ const Contact = () => {
                                         size={20}
                                     />
                                 </a>
-                                <a
+                                {/* <a
                                     href="https://x.com/suhailm_in"
                                     target="_blank"
                                     className="p-3 rounded-full bg-white/5 border border-cyan-500/20 hover:border-cyan-400 hover:bg-cyan-400/10 transition"
@@ -151,7 +151,7 @@ const Contact = () => {
                                         className="text-cyan-400"
                                         size={20}
                                     />
-                                </a>
+                                </a> */}
                                 <a
                                     href="https://medium.com/@suhail-m"
                                     target="_blank"
@@ -172,7 +172,7 @@ const Contact = () => {
                                         size={20}
                                     />
                                 </a>
-                                {/* <a
+                                <a
                                     href="https://dev.to/suhailm"
                                     target="_blank"
                                     className="p-3 rounded-full bg-white/5 border border-cyan-500/20 hover:border-cyan-400 hover:bg-cyan-400/10 transition"
@@ -181,7 +181,7 @@ const Contact = () => {
                                         className="text-cyan-400"
                                         size={20}
                                     />
-                                </a> */}
+                                </a>
                             </div>
                         </div>
                     </div>

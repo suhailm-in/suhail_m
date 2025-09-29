@@ -4,21 +4,19 @@ import PasswordModal from "../includes/PasswordModal";
 
 const AboutMe = () => {
     const [showModal, setShowModal] = useState(false);
+    const PASSWORD_KEY = import.meta.env.VITE_PASSWORD_KEY;
 
     const handleDownloadSuccess = () => {
         setShowModal(false);
         // Trigger CV download
         const link = document.createElement("a");
-        link.href = "/resume.pdf";
-        link.download = "resume.pdf";
+        link.href = "/suhailm_cv.pdf";
+        link.download = "suhailm_cv.pdf";
         link.click();
     };
 
     return (
-        <section
-            id="about"
-            className="relative bg-transparent py-20"
-        >
+        <section id="about" className="relative bg-transparent py-20">
             {/* Background Elements */}
             <div className="absolute -top-40 -left-40 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse"></div>
             {/* <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-ping"></div> */}
@@ -152,10 +150,12 @@ const AboutMe = () => {
                                         Software Engineer
                                     </h4>
                                     <p className="text-gray-400 text-sm mt-2">
-                                        Designing and developing scalable, secure, and
-                    high-performance applications using modern architectures,
-                    clean code practices, and robust engineering principles
-                    to drive innovation.
+                                        Designing and developing scalable,
+                                        secure, and high-performance
+                                        applications using modern architectures,
+                                        clean code practices, and robust
+                                        engineering principles to drive
+                                        innovation.
                                     </p>
                                 </div>
                             </div>
@@ -171,10 +171,11 @@ const AboutMe = () => {
                                         AI Enthusiast
                                     </h4>
                                     <p className="text-gray-400 text-sm mt-2">
-                                        Exploring the power of artificial intelligence and
-                    machine learning to create intelligent, adaptive
-                    solutions that transform security practices and enable
-                    next-generation technologies.
+                                        Exploring the power of artificial
+                                        intelligence and machine learning to
+                                        create intelligent, adaptive solutions
+                                        that transform security practices and
+                                        enable next-generation technologies.
                                     </p>
                                 </div>
                             </div>
@@ -187,7 +188,7 @@ const AboutMe = () => {
                 isOpen={showModal}
                 onClose={() => setShowModal(false)}
                 onSuccess={handleDownloadSuccess}
-                correctPassword="secure123"
+                correctPassword={PASSWORD_KEY}
             />
         </section>
     );
