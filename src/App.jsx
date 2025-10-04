@@ -22,7 +22,7 @@ function App() {
     const [menu0pen, setMenuOpen] = useState(false);
 
     return (
-        <Router>
+        <Router basename={import.meta.env.BASE_URL}>
             {!isLoaded && (
                 <LoadingScreen onComplete={() => setIsLoaded(true)} />
             )}
