@@ -30,7 +30,7 @@ const ProjectPage = () => {
                 title="Projects | Suhail M Portfolio"
                 description="Explore my portfolio projects demonstrating cybersecurity, AI, and web development expertise."
                 url={window.location.href}
-                image="https://raw.githubusercontent.com/suhailm-in/portfolio/main/screenshots/projects.png" // Optional OG image for projects
+                image="https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/screenshots/HomePage.png" // Optional OG image for projects
                 type="website"
                 jsonLd={jsonLd}
             />
