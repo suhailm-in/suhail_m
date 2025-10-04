@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import projects from "../../assets/data/projectsData.json";
 import { ExternalLink, Github } from "lucide-react";
+import CustomSEO from "../includes/CustomSEO/CustomSEO";
 
 const ProjectPage = () => {
     const [filter, setFilter] = useState("All");
@@ -13,8 +14,27 @@ const ProjectPage = () => {
     const featuredProject = filteredProjects[0];
     const otherProjects = filteredProjects.slice(1);
 
+    // JSON-LD structured data for Project Page
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: "Projects | Suhail M",
+        url: window.location.href,
+        description: "A curated selection of projects in cybersecurity, AI, and web development by Suhail M.",
+    };
+
     return (
         <section id="projectspage" className="relative bg-transparent py-20">
+            {/* Custom SEO for Project Page */}
+            <CustomSEO
+                title="Projects | Suhail M Portfolio"
+                description="Explore my portfolio projects demonstrating cybersecurity, AI, and web development expertise."
+                url={window.location.href}
+                image="https://raw.githubusercontent.com/suhailm-in/portfolio/main/screenshots/projects.png" // Optional OG image for projects
+                type="website"
+                jsonLd={jsonLd}
+            />
+
             <div className="max-w-6xl mx-auto px-4 pt-14">
                 {/* Heading */}
                 <div className="text-center mb-8">

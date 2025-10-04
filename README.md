@@ -24,3 +24,4 @@ For inquiries or collaboration:
 ---
 
 > “Code with purpose, design with clarity, and build with security.”
+

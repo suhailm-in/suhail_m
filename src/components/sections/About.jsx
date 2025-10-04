@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ShieldCheck, Cpu, Rocket, Download } from "lucide-react";
 import PasswordModal from "../includes/PasswordModal";
 
-const AboutMe = () => {
+const About = () => {
     const [showModal, setShowModal] = useState(false);
     const PASSWORD_KEY = import.meta.env.VITE_PASSWORD_KEY;
 
@@ -194,4 +194,4 @@ const AboutMe = () => {
     );
 };
 
-export default AboutMe;
+export default About;

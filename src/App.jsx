@@ -15,6 +15,7 @@ import Footer from "./components/sections/Footer";
 import Experience from "./components/sections/Experience";
 import ProjectPage from "./components/Pages/ProjectPage";
 import ArticlePage from "./components/Pages/ArticlePage";
+import Main from "./components/Pages/main";
 
 function App() {
     const [isLoaded, setIsLoaded] = useState(false);
@@ -34,7 +35,7 @@ function App() {
                 <MobileMenu menu0pen={menu0pen} setMenuOpen={setMenuOpen} />
 
                 <Routes>
-                    <Route path="/" element={<><Home /><About /><Experience /><Project /><Contact /></>} />
+                    <Route path="/" element={<Main />} />
                     <Route path="/allprojects" element={<ProjectPage />} />
                     <Route path="allarticles" element={<ArticlePage />} />
                     <Route
@@ -45,13 +46,6 @@ function App() {
                             </div>
                         }
                     />
-                    {/* <Home />
-                    <About />
-                    <Experience />
-                    <Project />
-                    <Article />
-                    <Contact />
-                    <Footer /> */}
                 </Routes>
                 <Footer />
             </div>
