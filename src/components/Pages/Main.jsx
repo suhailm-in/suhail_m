@@ -21,7 +21,7 @@ const Main = () => {
         <>
         {/* Custom SEO for Home Page */}
             <CustomSEO
-                title="Suhail M | Cybersecurity, AI & Web Development Portfolio"
+                title="Suhail M"
                 description="Welcome to the portfolio of Suhail M, featuring projects and insights in cybersecurity, AI, and modern web solutions."
                 url={window.location.href}
                 image={HomePage} // Optional OG image
