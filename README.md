@@ -1,27 +1,40 @@
-# Portfolio Website
+# Suhail M – Personal Portfolio Website
 
-A modern, responsive portfolio website built with **React + Vite + Tailwind CSS**.  
-It showcases professional **skills, projects, and contact information** with a sleek, minimal, and accessible design.
+A modern, responsive, and SEO-optimized personal portfolio built with **React**, **Vite**, and **Tailwind CSS**.  
+It showcases projects, professional experience, and expertise in **Cybersecurity**, **AI**, and **Web Development**.
 
----
-
-## ✨ Features
-- 🚀 **Fast & Lightweight** — Powered by Vite and optimized for performance  
-- 🎨 **Modern UI** — Tailwind CSS with smooth animations and creative effects  
-- 📂 **Project Showcase** — Highlighting selected projects with a professional layout  
-- 🔐 **Secure Contact Form** — Integrated with EmailJS for seamless messaging  
-- 🌙 **Dark Themed Design** — Elegant gradient backgrounds and glassmorphism effects  
-- 📱 **Responsive & PWA Ready** — Works seamlessly on all devices  
+<!-- ![Portfolio Screenshot](./screenshots/homepage.png) -->
 
 ---
 
-## 📬 Contact
-For inquiries or collaboration:
-- 📧 **Email:** suhailm.online@gmail.com  
-- 🌐 **Website:** [Your Portfolio Link]  
-- 💼 **LinkedIn:** [linkedin.com/in/suhailm-in](https://www.linkedin.com/in/suhailm-in)  
+## Features
+
+- **Modern UI/UX** – Clean, elegant design with smooth animations.  
+- **Fast & Responsive** – Built with Vite + React for optimized performance.  
+- **Mobile-First** – Fully responsive for all devices.  
+- **Secure Contact Form** – Integrated with EmailJS for quick communication.  
+- **SEO Optimized** – Dynamic metadata, JSON-LD structured data, and Open Graph tags.  
+- **Project Showcase** – Highlighting professional projects with creative layouts.  
+- **Deploy-Ready** – Easy deployment on GitHub Pages or any static host.
 
 ---
 
-> “Code with purpose, design with clarity, and build with security.”
+## Tech Stack
 
+- **Frontend:** React, Vite  
+- **Styling:** Tailwind CSS  
+- **SEO & Meta:** CustomSEO component (JSON-LD, OG tags)  
+- **Forms:** EmailJS  
+- **Icons:** React-Icons  
+- **Version Control:** Git & GitHub  
+- **Deployment:** GitHub Pages
+
+---
+
+## Contact
+
+For collaborations or inquiries, reach out at:
+
+- 📧 Email: suhailm.online@gmail.com
+- 💼 LinkedIn: linkedin.com/in/suhailm-in
+- 🌐 Portfolio: suhailm.in

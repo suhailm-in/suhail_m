@@ -50,13 +50,13 @@
     "githubUrl": "https://github.com/suhailm-in"
   },
   {
-    "id": 6,
-    "title": "Zero-Trust Network Visualizer",
-    "category": "Cybersecurity",
-    "image": "https://plus.unsplash.com/premium_photo-1661764393655-1dbffee8c0ce?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "A visualization tool for mapping user access flows, enforcing least-privilege policies, and monitoring zero-trust architectures.",
-    "tags": ["Zero Trust", "Visualization", "Security"],
+    "id": "2",
+    "title": "olx_clone",
+    "category": "Web Development",
+    "image": "https://plus.unsplash.com/premium_photo-1723601137214-1d5bfe3181f6?q=80&w=886&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" ,
+    "description": "A fully functional OLX-like web application built with React, Firebase, and Supabase. It enables users to sign up, log in, create product listings, upload images, and view products with real-time updates and a responsive OLX-inspired UI.",
+    "tags": [ "React", "Firebase", "Supabase", "Firestore", "Google OAuth", "User Authentication"],
     "demoUrl": "",
-    "githubUrl": "https://github.com/suhailm-in"
+    "githubUrl": "https://github.com/suhailm-in/olx_clone"
   }
 ]
