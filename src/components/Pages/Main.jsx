@@ -5,6 +5,7 @@ import Home from "../sections/Home";
 import Contact from "../sections/Contact";
 import CustomSEO from "../includes/CustomSEO/CustomSEO";
 import HomePage from "../../assets/images/screenshots/HomePage.png"
+// import AboutPro from "../sections/AboutPro";
 
 const Main = () => {
 
@@ -30,6 +31,7 @@ const Main = () => {
             />
             <Home />
             <About />
+            {/* <AboutPro /> */}
             <Experience />
             <Project />
             <Contact />

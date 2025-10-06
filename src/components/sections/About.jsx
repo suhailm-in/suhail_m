@@ -113,7 +113,7 @@ const About = () => {
                         {/* CV Button */}
                         <button
                             onClick={() => setShowModal(true)}
-                            className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-cyan-500/50 text-cyan-400 font-medium hover:bg-cyan-500/10 hover:scale-105 transition-all duration-300"
+                            className="inline-flex cursor-pointer items-center gap-2 px-6 py-3 rounded-full border border-cyan-500/50 text-cyan-400 font-medium hover:bg-cyan-500/10 hover:scale-105 transition-all duration-300"
                         >
                             <Download size={18} /> Download CV
                         </button>

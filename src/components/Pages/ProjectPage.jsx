@@ -13,6 +13,9 @@ const ProjectPage = () => {
             : projects.filter((p) => p.category === filter);
     const featuredProject = filteredProjects[0];
     const otherProjects = filteredProjects.slice(1);
+    const ListedProjects = filteredProjects
+            .sort((a, b) => a.id - b.id)
+            // .sort((a, b) => b.id - a.id) // descending order
 
     // JSON-LD structured data for Project Page
     const jsonLd = {
@@ -70,10 +73,10 @@ const ProjectPage = () => {
 
                 {/* Masonry Grid */}
                 <div className="grid md:grid-cols-3 gap-8">
-                    {filteredProjects.map((project, idx) => (
+                    {ListedProjects.map((project, idx) => (
                         <div
                             key={project.id}
-                            className={`relative rounded-xl overflow-hidden group shadow-lg backdrop-blur-sm border border-cyan-500/10 bg-gradient-to-br from-gray-800/70 via-gray-900/60 to-black/60 transition hover:scale-105 duration-300 ${
+                            className={`relative flex flex-col p-4 rounded-xl shadow-lg backdrop-blur-sm border border-cyan-500/10 bg-gradient-to-br from-gray-800/70 via-gray-900/60 to-black/60 transition hover:shadow-cyan-500/20 hover:-translate-y-2 duration-300 ${
                                 idx === 0 ? "md:col-span-2" : ""
                             }`}
                         >
@@ -87,7 +90,7 @@ const ProjectPage = () => {
                             </div>
 
                             {/* Project Content */}
-                            <div className="p-6">
+                            <div className="flex flex-col flex-grow pt-6">
                                 <h3 className="text-xl font-semibold text-white mb-2">
                                     {project.title}
                                 </h3>
@@ -95,7 +98,7 @@ const ProjectPage = () => {
                                     {project.description}
                                 </p>
 
-                                {/* Tags (Optional) */}
+                                {/* Tags */}
                                 <div className="flex flex-wrap gap-2 mb-4">
                                     {project.tags?.map((tag, i) => (
                                         <span
@@ -107,11 +110,12 @@ const ProjectPage = () => {
                                     ))}
                                 </div>
 
-                                {/* Links */}
-                                <div className="flex items-center gap-4">
+                                {/* Links pinned to bottom */}
+                                <div className="mt-auto flex items-center gap-4 pt-4 border-t border-gray-700/40">
                                     <a
                                         href={project.demoUrl}
                                         target="_blank"
+                                        rel="noreferrer"
                                         className="text-cyan-400 hover:text-cyan-200 transition-colors"
                                     >
                                         <ExternalLink size={20} />
@@ -119,6 +123,7 @@ const ProjectPage = () => {
                                     <a
                                         href={project.githubUrl}
                                         target="_blank"
+                                        rel="noreferrer"
                                         className="text-cyan-400 hover:text-cyan-200 transition-colors"
                                     >
                                         <Github size={20} />

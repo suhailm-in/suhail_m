@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "2",
     "title": "Personal Portfolio Website",
     "category": "Web Development",
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/my_portfolio.png",
@@ -10,7 +10,7 @@
     "githubUrl": "https://github.com/suhailm-in/suhail_m"
   },
   {
-    "id": "2",
+    "id": "1",
     "title": "olx_clone",
     "category": "Web Development",
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/olx_clone.png" ,
@@ -25,7 +25,7 @@
     "category": "Travel Booking Application",
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/flyairwayis.png",
     "description": "FlyAirways is a modern travel booking web application built with React.js, designed to make exploring destinations and booking vacations simple and seamless. It offers curated travel packages, secure booking, interactive components, and a responsive UI with integrated Firebase, Supabase, Firestore, Google OAuth, and user authentication.",
-    "tags": [ "React", "Firebase", "Supabase", "Firestore", "Google OAuth", "User Authentication", "Responsive UI", "Travel Booking", "Search & Filter", "Reusable Components" ],
+    "tags": [ "React", "Firebase", "Google OAuth", "Supabase", "Firestore", "Responsive UI", "Search & Filter",  "User Authentication" ],
     "demoUrl": "",
     "githubUrl": "https://github.com/suhailm-in/flyairways"
   },
@@ -45,7 +45,7 @@
     "category": "Web",
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/weather_app.png",
     "description": "React-Weather-App allows users to check current weather conditions for any city worldwide. With real-time data, a clean and modern UI, and a responsive design, it ensures a seamless user experience across all devices.",
-    "tags": [ "React", "Weather API", "Real-Time Data", "Responsive UI", "City Search", "Extended Forecast", "Modern UI/UX", "Fast Performance" ],
+    "tags": [ "React", "Weather API", "Real-Time Data", "Responsive UI", "City Search", "Modern UI/UX", "Fast Performance" ],
     "demoUrl": "https://suhailm-in.github.io/React-Weather-App/",
     "githubUrl": "https://github.com/suhailm-in/React-Weather-App"
   },
@@ -65,7 +65,7 @@
     "category": "Web",
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/todo.png",
     "description": "React-Todo is a modern, responsive task management application built with React. It helps users organize daily activities efficiently with features like task creation, editing, deletion, status tracking, and persistent storage using local storage.",
-    "tags": [ "React", "Todo App", "Task Management", "Local Storage", "Responsive UI", "Clean UI/UX", "Real-Time Updates", "Productivity" ],
+    "tags": [ "React","Task Management", "Local Storage", "Responsive UI", "Clean UI/UX", "Real-Time Updates", "Productivity" ],
     "demoUrl": "https://suhailm-in.github.io/React-Todo/",
     "githubUrl": "https://github.com/suhailm-in/React-Todo"
   },
@@ -75,7 +75,7 @@
     "category": "Cybersecurity",
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/hundingpro.png",
     "description": "Hunting Pro is a powerful subdomain enumeration and URL extraction tool designed for security professionals. It automates subdomain discovery using multiple sources, validates live subdomains, extracts URLs and JavaScript files, identifies sensitive files, and generates detailed reports to streamline reconnaissance and vulnerability assessments.",
-    "tags": [ "Python", "Subdomain Enumeration", "URL Extraction", "Reconnaissance", "Sensitive File Discovery", "JavaScript Analysis", "Reporting", "Automation" ],
+    "tags": [ "Python", "URL Extraction", "Reporting", "Reconnaissance", "Sensitive File Discovery", "JavaScript Analysis", "Automation" ],
     "demoUrl": "",
     "githubUrl": "https://github.com/suhailm-in/HuntingPro"
   },
@@ -85,7 +85,7 @@
     "category": "Cybersecurity",
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Keylogger.png",
     "description": "A basic Python keylogger designed for educational and ethical use only. It records all keystrokes, including character and special keys, and saves them to a log file (keylog.txt) in the user's home directory. The script automatically installs required dependencies and stops logging when the ESC key is pressed.",
-    "tags": [ "Python", "Keylogger", "pynput", "Educational", "Ethical Use", "Keystroke Logging", "File Logging", "Automation" ],
+    "tags": [ "Python", "pynput", "Keystroke Logging", "File Logging", "Automation", "Keylogger" ],
     "demoUrl": "",
     "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_04"
   },
@@ -95,7 +95,7 @@
     "category": "Cybersecurity",
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Packet_sniffer.png",
     "description": "The Network Packet Sniffer is a Python tool for capturing and analyzing network packets in real-time. It provides details such as source and destination IP addresses, protocol types (TCP, UDP, ICMP), and packet payloads. Useful for network monitoring, debugging, and cybersecurity analysis.",
-    "tags": [ "Python", "Network Sniffer", "Scapy", "Packet Analysis", "TCP", "UDP", "ICMP", "Cybersecurity", "Network Monitoring" ],
+    "tags": [ "Python", "Scapy", "Packet Analysis", "TCP", "UDP", "ICMP", "Network Monitoring" ],
     "demoUrl": "",
     "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_05"
   },
@@ -105,7 +105,7 @@
     "category": "Cybersecurity",
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/password_strength_evaluator2.png",
     "description": "A Python script that evaluates password strength based on length, uppercase and lowercase letters, digits, and special characters. Provides a score out of 5 and actionable feedback to improve password security.",
-    "tags": [ "Python", "Password Checker", "Security", "Password Strength", "Validation", "Cybersecurity", "Feedback", "CLI Tool" ],
+    "tags": [ "Python", "Password Checker", "Security", "Password Strength", "Validation", "CLI Tool" ],
     "demoUrl": "",
     "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_03"
   },
@@ -115,7 +115,7 @@
     "category": "Cybersecurity",
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/image_encryptor.png",
     "description": "A Python tool for encrypting and decrypting images using pixel manipulation. Users can securely encrypt images by modifying pixel RGB values with a key and later decrypt them using the same key. Output images are saved automatically in an output folder.",
-    "tags": [ "Python", "Image Encryption", "Image Decryption", "OpenCV", "NumPy", "Pixel Manipulation", "Security", "CLI Tool" ],
+    "tags": [ "Python", "Image Encryption / Decryption", "OpenCV", "NumPy", "Pixel Manipulation","CLI Tool" ],
     "demoUrl": "",
     "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_02"
   },
@@ -135,7 +135,7 @@
     "category": "Cybersecurity",
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Port-Scanner.png",
     "description": "A fast, configurable Python port scanning and network reconnaissance tool for security professionals and network administrators. Supports single, multi, and range scans with multi-threading, configurable timeouts/retries, result logging, and multiple output formats to aid vulnerability assessment and asset discovery. Intended for authorized and ethical use only.",
-    "tags": [ "Python", "Port Scanner", "Network Reconnaissance", "Multithreading", "TCP", "UDP", "CLI", "Logging", "Range Scan", "Security" ],
+    "tags": [ "Python", "Port Scanner", "Multithreading", "Network Reconnaissance", "TCP", "UDP", "Logging", "Range Scan", "CLI Tool" ],
     "demoUrl": "",
     "githubUrl": "https://github.com/suhailm-in/Port-Scanner"
   }
