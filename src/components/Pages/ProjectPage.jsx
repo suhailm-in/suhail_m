@@ -12,10 +12,9 @@ const ProjectPage = () => {
             ? projects
             : projects.filter((p) => p.category === filter);
     const featuredProject = filteredProjects[0];
-    const otherProjects = filteredProjects.slice(1);
-    const ListedProjects = filteredProjects
-            .sort((a, b) => a.id - b.id)
-            // .sort((a, b) => b.id - a.id) // descending order
+    const otherProjects = filteredProjects.slice(1).sort((a, b) => b.id - a.id); // descending order
+    // const ListedProjects = filteredProjects.sort((a, b) => b.id - a.id); // descending order
+    // .sort((a, b) => a.id - b.id)
 
     // JSON-LD structured data for Project Page
     const jsonLd = {
@@ -73,7 +72,7 @@ const ProjectPage = () => {
 
                 {/* Masonry Grid */}
                 <div className="grid md:grid-cols-3 gap-8">
-                    {ListedProjects.map((project, idx) => (
+                    {filteredProjects.map((project, idx) => (
                         <div
                             key={project.id}
                             className={`relative flex flex-col p-4 rounded-xl shadow-lg backdrop-blur-sm border border-cyan-500/10 bg-gradient-to-br from-gray-800/70 via-gray-900/60 to-black/60 transition hover:shadow-cyan-500/20 hover:-translate-y-2 duration-300 ${

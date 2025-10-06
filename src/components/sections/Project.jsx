@@ -6,8 +6,8 @@ import { HashLink } from "react-router-hash-link";
 const Project = () => {
     // Sort projects by id and take first 6
     const sortedProjects = projects
-        .sort((a, b) => a.id - b.id)
-        // .sort((a, b) => b.id - a.id) // descending order
+        .sort((a, b) => b.id - a.id)
+        // .sort((a, b) => a.id - b.id) // descending order
         .slice(0, 6);
 
     return (
@@ -51,66 +51,64 @@ const Project = () => {
                             </div>
 
                             {/* Content */}
-                            
-                                <div className="flex-1 pt-5">
-                                    <h3 className="text-xl font-semibold mb-2 text-white/90">
-                                        {project.title}
-                                    </h3>
-                                    <p className="text-sm text-gray-400 leading-relaxed mb-4">
-                                        {project.description}
-                                    </p>
 
-                                    {/* Tags */}
-                                    <div className="flex flex-wrap gap-2 mb-5">
-                                        {project.tags.map((tag, index) => (
-                                            <span
-                                                key={index}
-                                                className="px-3 py-1 text-xs font-medium rounded-full bg-gradient-to-r from-cyan-500/20 to-blue-500/20 text-cyan-400 border border-cyan-500/30"
-                                            >
-                                                {tag}
-                                            </span>
-                                        ))}
-                                    </div>
+                            <div className="flex-1 pt-5">
+                                <h3 className="text-xl font-semibold mb-2 text-white/90">
+                                    {project.title}
+                                </h3>
+                                <p className="text-sm text-gray-400 leading-relaxed mb-4">
+                                    {project.description}
+                                </p>
+
+                                {/* Tags */}
+                                <div className="flex flex-wrap gap-2 mb-5">
+                                    {project.tags.map((tag, index) => (
+                                        <span
+                                            key={index}
+                                            className="px-3 py-1 text-xs font-medium rounded-full bg-gradient-to-r from-cyan-500/20 to-blue-500/20 text-cyan-400 border border-cyan-500/30"
+                                        >
+                                            {tag}
+                                        </span>
+                                    ))}
                                 </div>
+                            </div>
 
-                                    
-                                {/* Links */}
-                                <div className="mt-auto flex items-center justify-between pt-4 border-t border-gray-700/40">
-                                    <div className="flex space-x-3">
-                                        <a
-                                            href={project.demoUrl}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                            className="p-2 rounded-full bg-gray-800/50 hover:bg-cyan-500/20 transition"
-                                        >
-                                            <ExternalLink
-                                                size={18}
-                                                className="text-cyan-400"
-                                            />
-                                        </a>
-                                        <a
-                                            href={project.githubUrl}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                            className="p-2 rounded-full bg-gray-800/50 hover:bg-cyan-500/20 transition"
-                                        >
-                                            <Github
-                                                size={18}
-                                                className="text-cyan-400"
-                                            />
-                                        </a>
-                                    </div>
-
+                            {/* Links */}
+                            <div className="mt-auto flex items-center justify-between pt-4 border-t border-gray-700/40">
+                                <div className="flex space-x-3">
                                     <a
                                         href={project.demoUrl}
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="flex items-center gap-2 text-cyan-400 font-medium hover:gap-3 transition-all duration-300"
+                                        className="p-2 rounded-full bg-gray-800/50 hover:bg-cyan-500/20 transition"
                                     >
-                                        View <ArrowRight size={16} />
+                                        <ExternalLink
+                                            size={18}
+                                            className="text-cyan-400"
+                                        />
+                                    </a>
+                                    <a
+                                        href={project.githubUrl}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="p-2 rounded-full bg-gray-800/50 hover:bg-cyan-500/20 transition"
+                                    >
+                                        <Github
+                                            size={18}
+                                            className="text-cyan-400"
+                                        />
                                     </a>
                                 </div>
-                            
+
+                                <a
+                                    href={project.demoUrl}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="flex items-center gap-2 text-cyan-400 font-medium hover:gap-3 transition-all duration-300"
+                                >
+                                    View <ArrowRight size={16} />
+                                </a>
+                            </div>
                         </div>
                     ))}
                 </div>
