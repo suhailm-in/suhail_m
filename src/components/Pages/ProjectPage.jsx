@@ -20,7 +20,8 @@ const ProjectPage = () => {
         "@type": "CollectionPage",
         name: "Projects | Suhail M",
         url: window.location.href,
-        description: "A curated selection of projects in cybersecurity, AI, and web development by Suhail M.",
+        description:
+            "A curated selection of projects in cybersecurity, AI, and web development by Suhail M.",
     };
 
     return (
@@ -44,9 +45,9 @@ const ProjectPage = () => {
                     <p className="text-gray-400 max-w-2xl mx-auto mt-4">
                         {/* A curated selection of my best work blending innovation,
                         performance, and user-focused design. */}
-						A curated collection of projects demonstrating
+                        A curated collection of projects demonstrating
                         innovation, security, and high-performance solutions
-                        designed for exceptional user experiences. 
+                        designed for exceptional user experiences.
                     </p>
                 </div>
 
@@ -77,11 +78,13 @@ const ProjectPage = () => {
                             }`}
                         >
                             {/* Project Image */}
-                            <img
-                                src={project.image}
-                                alt={project.title}
-                                className="w-full h-72 object-cover rounded-t-xl"
-                            />
+                            <div className="relative w-full h-56 overflow-hidden rounded-t-xl">
+                                <img
+                                    src={project.image}
+                                    alt={project.title}
+                                    className="w-full h-full object-cover transform group-hover:scale-105 transition duration-500"
+                                />
+                            </div>
 
                             {/* Project Content */}
                             <div className="p-6">

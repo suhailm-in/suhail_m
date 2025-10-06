@@ -1,62 +1,142 @@
 [
   {
-    "id": 1,
-    "title": "AI-Powered Threat Detection",
-    "category": "AI",
-    "image": "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "An enterprise-grade platform leveraging machine learning to detect anomalies and mitigate cyber threats in real-time.",
-    "tags": ["AI", "Security", "Cloud"],
-    "demoUrl": "",
-    "githubUrl": "https://github.com/suhailm-in-detection"
-  },
-  {
-    "id": 2,
-    "title": "Red Team Simulation Toolkit",
-    "category": "Cybersecurity",
-    "image": "https://plus.unsplash.com/premium_photo-1723601137214-1d5bfe3181f6?q=80&w=886&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "A comprehensive offensive security toolkit for simulating real-world attacks, designed to strengthen organizational defenses.",
-    "tags": ["Cybersecurity", "PenTesting", "Automation"],
-    "demoUrl": "",
-    "githubUrl": "https://github.com/suhailm-in"
-  },
-  {
-    "id": 3,
-    "title": "Next-Gen Portfolio Website",
-    "category": "Web",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "A sleek, responsive personal portfolio website featuring dark/light modes, gradient accents, and premium animations.",
-    "tags": ["React", "Tailwind", "Design"],
-    "demoUrl": "",
-    "githubUrl": "https://github.com/suhailm-in"
-  },
-  {
-    "id": 4,
-    "title": "Cloud-Native Security Dashboard",
-    "category": "Web",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "An interactive dashboard providing live threat analytics, compliance reports, and vulnerability trends for cloud systems.",
-    "tags": ["Cloud", "Security", "Dashboard"],
-    "demoUrl": "",
-    "githubUrl": "https://github.com/suhailm-in"
-  },
-  {
-    "id": 5,
-    "title": "AI-Driven Code Auditor",
-    "category": "AI",
-    "image": "https://plus.unsplash.com/premium_photo-1676637656166-cb7b3a43b81a?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "A smart code-analysis engine that detects insecure code patterns and suggests automated remediation.",
-    "tags": ["AI", "Code Analysis", "Security"],
-    "demoUrl": "",
-    "githubUrl": "https://github.com/suhailm-in"
+    "id": "1",
+    "title": "Personal Portfolio Website",
+    "category": "Web Development",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/my_portfolio.png",
+    "description": "A modern, responsive, and SEO-optimized personal portfolio built with React, Vite, and Tailwind CSS. It showcases projects, professional experience, and expertise in Cybersecurity, AI, and Web Development with smooth animations and a secure contact form.",
+    "tags": [ "React", "Vite", "Tailwind CSS", "SEO", "EmailJS", "Responsive UI", "Portfolio"],
+    "demoUrl": "https://suhailm-in.github.io/suhail_m/",
+    "githubUrl": "https://github.com/suhailm-in/suhail_m"
   },
   {
     "id": "2",
     "title": "olx_clone",
     "category": "Web Development",
-    "image": "https://plus.unsplash.com/premium_photo-1723601137214-1d5bfe3181f6?q=80&w=886&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" ,
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/olx_clone.png" ,
     "description": "A fully functional OLX-like web application built with React, Firebase, and Supabase. It enables users to sign up, log in, create product listings, upload images, and view products with real-time updates and a responsive OLX-inspired UI.",
     "tags": [ "React", "Firebase", "Supabase", "Firestore", "Google OAuth", "User Authentication"],
-    "demoUrl": "",
+    "demoUrl": "https://suhailm-in.github.io/olx_clone/",
     "githubUrl": "https://github.com/suhailm-in/olx_clone"
+  },
+  {
+    "id": "4",
+    "title": "flyairways",
+    "category": "Travel Booking Application",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/flyairwayis.png",
+    "description": "FlyAirways is a modern travel booking web application built with React.js, designed to make exploring destinations and booking vacations simple and seamless. It offers curated travel packages, secure booking, interactive components, and a responsive UI with integrated Firebase, Supabase, Firestore, Google OAuth, and user authentication.",
+    "tags": [ "React", "Firebase", "Supabase", "Firestore", "Google OAuth", "User Authentication", "Responsive UI", "Travel Booking", "Search & Filter", "Reusable Components" ],
+    "demoUrl": "",
+    "githubUrl": "https://github.com/suhailm-in/flyairways"
+  },
+  {
+    "id": "5",
+    "title": "React-Ai-Image-Generator-App",
+    "category": "AI",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/ai_mage_generator.png",
+    "description": "A simple and interactive AI-powered image generator built with React. It allows users to create stunning images from text prompts with customizable parameters like size, style, and creativity, featuring real-time feedback and easy image downloads.",
+    "tags": [ "React", "AI", "Image Generation", "Text-to-Image", "Responsive UI", "Interactive", "Customization"],
+    "demoUrl": "https://suhailm-in.github.io/React-Ai-Image-Generator-App/",
+    "githubUrl": "https://github.com/suhailm-in/React-Ai-Image-Generator-App"
+  },
+  {
+    "id": "6",
+    "title": "React Weather App",
+    "category": "Web",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/weather_app.png",
+    "description": "React-Weather-App allows users to check current weather conditions for any city worldwide. With real-time data, a clean and modern UI, and a responsive design, it ensures a seamless user experience across all devices.",
+    "tags": [ "React", "Weather API", "Real-Time Data", "Responsive UI", "City Search", "Extended Forecast", "Modern UI/UX", "Fast Performance" ],
+    "demoUrl": "https://suhailm-in.github.io/React-Weather-App/",
+    "githubUrl": "https://github.com/suhailm-in/React-Weather-App"
+  },
+  {
+    "id": "7",
+    "title": "React Quiz App",
+    "category": "Web",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/quiz_app.png",
+    "description": "A simple and interactive quiz application built with React.js and Vite. It allows users to answer multiple-choice questions, receive instant feedback, track their score, and view the final results with a stylish and responsive UI.",
+    "tags": [ "React", "Vite", "Multiple-Choice", "Score Tracking", "Stylish UI" ],
+    "demoUrl": "https://suhailm-in.github.io/React-Quiz-App/",
+    "githubUrl": "https://github.com/suhailm-in/React-Quiz-App"
+  },
+  {
+    "id": "8",
+    "title": "React Todo App",
+    "category": "Web",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/todo.png",
+    "description": "React-Todo is a modern, responsive task management application built with React. It helps users organize daily activities efficiently with features like task creation, editing, deletion, status tracking, and persistent storage using local storage.",
+    "tags": [ "React", "Todo App", "Task Management", "Local Storage", "Responsive UI", "Clean UI/UX", "Real-Time Updates", "Productivity" ],
+    "demoUrl": "https://suhailm-in.github.io/React-Todo/",
+    "githubUrl": "https://github.com/suhailm-in/React-Todo"
+  },
+  {
+    "id": "9",
+    "title": "Hunting Pro",
+    "category": "Cybersecurity",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/hundingpro.png",
+    "description": "Hunting Pro is a powerful subdomain enumeration and URL extraction tool designed for security professionals. It automates subdomain discovery using multiple sources, validates live subdomains, extracts URLs and JavaScript files, identifies sensitive files, and generates detailed reports to streamline reconnaissance and vulnerability assessments.",
+    "tags": [ "Python", "Subdomain Enumeration", "URL Extraction", "Reconnaissance", "Sensitive File Discovery", "JavaScript Analysis", "Reporting", "Automation" ],
+    "demoUrl": "",
+    "githubUrl": "https://github.com/suhailm-in/HuntingPro"
+  },
+  {
+    "id": "10",
+    "title": "Keylogger",
+    "category": "Cybersecurity",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Keylogger.png",
+    "description": "A basic Python keylogger designed for educational and ethical use only. It records all keystrokes, including character and special keys, and saves them to a log file (keylog.txt) in the user's home directory. The script automatically installs required dependencies and stops logging when the ESC key is pressed.",
+    "tags": [ "Python", "Keylogger", "pynput", "Educational", "Ethical Use", "Keystroke Logging", "File Logging", "Automation" ],
+    "demoUrl": "",
+    "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_04"
+  },
+  {
+    "id": "11",
+    "title": "Network Packet Sniffer",
+    "category": "Cybersecurity",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Packet_sniffer.png",
+    "description": "The Network Packet Sniffer is a Python tool for capturing and analyzing network packets in real-time. It provides details such as source and destination IP addresses, protocol types (TCP, UDP, ICMP), and packet payloads. Useful for network monitoring, debugging, and cybersecurity analysis.",
+    "tags": [ "Python", "Network Sniffer", "Scapy", "Packet Analysis", "TCP", "UDP", "ICMP", "Cybersecurity", "Network Monitoring" ],
+    "demoUrl": "",
+    "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_05"
+  },
+  {
+    "id": "12",
+    "title": "Password Complexity Checker",
+    "category": "Cybersecurity",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/password_strength_evaluator2.png",
+    "description": "A Python script that evaluates password strength based on length, uppercase and lowercase letters, digits, and special characters. Provides a score out of 5 and actionable feedback to improve password security.",
+    "tags": [ "Python", "Password Checker", "Security", "Password Strength", "Validation", "Cybersecurity", "Feedback", "CLI Tool" ],
+    "demoUrl": "",
+    "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_03"
+  },
+  {
+    "id": "13",
+    "title": "Image Encryption & Decryption Tool",
+    "category": "Cybersecurity",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/image_encryptor.png",
+    "description": "A Python tool for encrypting and decrypting images using pixel manipulation. Users can securely encrypt images by modifying pixel RGB values with a key and later decrypt them using the same key. Output images are saved automatically in an output folder.",
+    "tags": [ "Python", "Image Encryption", "Image Decryption", "OpenCV", "NumPy", "Pixel Manipulation", "Security", "CLI Tool" ],
+    "demoUrl": "",
+    "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_02"
+  },
+  {
+    "id": "14",
+    "title": "Caesar Cipher Encryption/Decryption",
+    "category": "Cybersecurity",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/caesar_cipher.png",
+    "description": "A simple Python script that implements the Caesar Cipher algorithm to encrypt and decrypt messages by shifting letters by a specified number of positions. Supports both uppercase and lowercase letters, while leaving non-alphabetic characters unchanged.",
+    "tags": [ "Python", "Caesar Cipher", "Encryption", "Decryption", "Substitution Cipher", "CLI Tool", "Text Security" ],
+    "demoUrl": "",
+    "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_01"
+  },
+  {
+    "id": "15",
+    "title": "Port-Scanner",
+    "category": "Cybersecurity",
+    "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Port-Scanner.png",
+    "description": "A fast, configurable Python port scanning and network reconnaissance tool for security professionals and network administrators. Supports single, multi, and range scans with multi-threading, configurable timeouts/retries, result logging, and multiple output formats to aid vulnerability assessment and asset discovery. Intended for authorized and ethical use only.",
+    "tags": [ "Python", "Port Scanner", "Network Reconnaissance", "Multithreading", "TCP", "UDP", "CLI", "Logging", "Range Scan", "Security" ],
+    "demoUrl": "",
+    "githubUrl": "https://github.com/suhailm-in/Port-Scanner"
   }
 ]

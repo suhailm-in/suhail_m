@@ -4,6 +4,12 @@ import projects from "../../assets/data/projectsData.json";
 import { HashLink } from "react-router-hash-link";
 
 const Project = () => {
+    // Sort projects by id and take first 6
+    const sortedProjects = projects
+        .sort((a, b) => a.id - b.id)
+        // .sort((a, b) => b.id - a.id) // descending order
+        .slice(0, 6);
+
     return (
         <section
             id="projects"
@@ -23,16 +29,17 @@ const Project = () => {
                         {/* A curated collection of projects demonstrating
                         innovation, security, and high-performance solutions
                         designed for exceptional user experiences.  */}
-                        Experience is not just what you know, but how effectively you turn knowledge into results.
+                        Experience is not just what you know, but how
+                        effectively you turn knowledge into results.
                     </p>
                 </div>
 
                 {/* Project Grid */}
-                <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
-                    {projects.map((project) => (
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {sortedProjects.map((project) => (
                         <div
                             key={project.id}
-                            className="break-inside-avoid p-4 rounded-2xl bg-gradient-to-br from-gray-800/70 via-gray-900/60 to-black/60 backdrop-blur-md border border-white/10 shadow-lg hover:shadow-cyan-500/20 hover:-translate-y-2 transition duration-300 group"
+                            className="flex flex-col justify-between break-inside-avoid p-4 rounded-2xl bg-gradient-to-br from-gray-800/70 via-gray-900/60 to-black/60 backdrop-blur-md border border-white/10 shadow-lg hover:shadow-cyan-500/20 hover:-translate-y-2 transition duration-300 group"
                         >
                             {/* Image */}
                             <div className="relative overflow-hidden rounded-xl">
@@ -44,28 +51,31 @@ const Project = () => {
                             </div>
 
                             {/* Content */}
-                            <div className="pt-5">
-                                <h3 className="text-xl font-semibold mb-2 text-white/90">
-                                    {project.title}
-                                </h3>
-                                <p className="text-sm text-gray-400 leading-relaxed mb-4">
-                                    {project.description}
-                                </p>
+                            
+                                <div className="flex-1 pt-5">
+                                    <h3 className="text-xl font-semibold mb-2 text-white/90">
+                                        {project.title}
+                                    </h3>
+                                    <p className="text-sm text-gray-400 leading-relaxed mb-4">
+                                        {project.description}
+                                    </p>
 
-                                {/* Tags */}
-                                <div className="flex flex-wrap gap-2 mb-5">
-                                    {project.tags.map((tag, index) => (
-                                        <span
-                                            key={index}
-                                            className="px-3 py-1 text-xs font-medium rounded-full bg-gradient-to-r from-cyan-500/20 to-blue-500/20 text-cyan-400 border border-cyan-500/30"
-                                        >
-                                            {tag}
-                                        </span>
-                                    ))}
+                                    {/* Tags */}
+                                    <div className="flex flex-wrap gap-2 mb-5">
+                                        {project.tags.map((tag, index) => (
+                                            <span
+                                                key={index}
+                                                className="px-3 py-1 text-xs font-medium rounded-full bg-gradient-to-r from-cyan-500/20 to-blue-500/20 text-cyan-400 border border-cyan-500/30"
+                                            >
+                                                {tag}
+                                            </span>
+                                        ))}
+                                    </div>
                                 </div>
 
+                                    
                                 {/* Links */}
-                                <div className="flex items-center justify-between">
+                                <div className="mt-auto flex items-center justify-between pt-4 border-t border-gray-700/40">
                                     <div className="flex space-x-3">
                                         <a
                                             href={project.demoUrl}
@@ -100,7 +110,7 @@ const Project = () => {
                                         View <ArrowRight size={16} />
                                     </a>
                                 </div>
-                            </div>
+                            
                         </div>
                     ))}
                 </div>
