@@ -78,7 +78,7 @@ const About = () => {
                                     size={24}
                                 />
                                 <p className="text-2xl font-bold text-white">
-                                    5+
+                                    4+
                                 </p>
                                 <span className="text-sm text-gray-400">
                                     Years in Security
@@ -90,7 +90,7 @@ const About = () => {
                                     size={24}
                                 />
                                 <p className="text-2xl font-bold text-white">
-                                    50+
+                                    30+
                                 </p>
                                 <span className="text-sm text-gray-400">
                                     Projects Built
@@ -102,10 +102,10 @@ const About = () => {
                                     size={24}
                                 />
                                 <p className="text-2xl font-bold text-white">
-                                    12+
+                                    6+
                                 </p>
                                 <span className="text-sm text-gray-400">
-                                    AI Experiments
+                                    Security Tools Built
                                 </span>
                             </div>
                         </div>
