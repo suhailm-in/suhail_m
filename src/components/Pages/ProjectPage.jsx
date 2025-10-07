@@ -5,7 +5,7 @@ import CustomSEO from "../includes/CustomSEO/CustomSEO";
 
 const ProjectPage = () => {
     const [filter, setFilter] = useState("All");
-    const categories = ["All", "Web", "AI", "Cybersecurity"];
+    const categories = ["All", "Web", "AI", "Cybersecurity", "GUI"];
 
     const filteredProjects =
         filter === "All"

@@ -35,7 +35,7 @@
     "category": "AI",
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/ai_mage_generator.png",
     "description": "A simple and interactive AI-powered image generator built with React. It allows users to create stunning images from text prompts with customizable parameters like size, style, and creativity, featuring real-time feedback and easy image downloads.",
-    "tags": [ "React", "AI", "Image Generation", "Text-to-Image", "Responsive UI", "Interactive", "Customization"],
+    "tags": [ "React", "Open AI", "Image Generation", "Text-to-Image", "Responsive UI"],
     "demoUrl": "https://suhailm-in.github.io/React-Ai-Image-Generator-App/",
     "githubUrl": "https://github.com/suhailm-in/React-Ai-Image-Generator-App"
   },
@@ -76,7 +76,7 @@
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/hundingpro.png",
     "description": "Hunting Pro is a powerful subdomain enumeration and URL extraction tool designed for security professionals. It automates subdomain discovery using multiple sources, validates live subdomains, extracts URLs and JavaScript files, identifies sensitive files, and generates detailed reports to streamline reconnaissance and vulnerability assessments.",
     "tags": [ "Python", "URL Extraction", "Reporting", "Reconnaissance", "Sensitive File Discovery", "JavaScript Analysis", "Automation" ],
-    "demoUrl": "",
+    "demoUrl": "https://github.com/suhailm-in/HuntingPro",
     "githubUrl": "https://github.com/suhailm-in/HuntingPro"
   },
   {
@@ -86,7 +86,7 @@
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Keylogger.png",
     "description": "A basic Python keylogger designed for educational and ethical use only. It records all keystrokes, including character and special keys, and saves them to a log file (keylog.txt) in the user's home directory. The script automatically installs required dependencies and stops logging when the ESC key is pressed.",
     "tags": [ "Python", "pynput", "Keystroke Logging", "File Logging", "Automation", "Keylogger" ],
-    "demoUrl": "",
+    "demoUrl": "https://github.com/suhailm-in/PRODIGY_CS_04",
     "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_04"
   },
   {
@@ -96,7 +96,7 @@
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Packet_sniffer.png",
     "description": "The Network Packet Sniffer is a Python tool for capturing and analyzing network packets in real-time. It provides details such as source and destination IP addresses, protocol types (TCP, UDP, ICMP), and packet payloads. Useful for network monitoring, debugging, and cybersecurity analysis.",
     "tags": [ "Python", "Scapy", "Packet Analysis", "TCP", "UDP", "ICMP", "Network Monitoring" ],
-    "demoUrl": "",
+    "demoUrl": "https://github.com/suhailm-in/PRODIGY_CS_05",
     "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_05"
   },
   {
@@ -106,7 +106,7 @@
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/password_strength_evaluator2.png",
     "description": "A Python script that evaluates password strength based on length, uppercase and lowercase letters, digits, and special characters. Provides a score out of 5 and actionable feedback to improve password security.",
     "tags": [ "Python", "Password Checker", "Security", "Password Strength", "Validation", "CLI Tool" ],
-    "demoUrl": "",
+    "demoUrl": "https://github.com/suhailm-in/PRODIGY_CS_03",
     "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_03"
   },
   {
@@ -116,7 +116,7 @@
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/image_encryptor.png",
     "description": "A Python tool for encrypting and decrypting images using pixel manipulation. Users can securely encrypt images by modifying pixel RGB values with a key and later decrypt them using the same key. Output images are saved automatically in an output folder.",
     "tags": [ "Python", "Image Encryption / Decryption", "OpenCV", "NumPy", "Pixel Manipulation","CLI Tool" ],
-    "demoUrl": "",
+    "demoUrl": "https://github.com/suhailm-in/PRODIGY_CS_02",
     "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_02"
   },
   {
@@ -126,7 +126,7 @@
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/caesar_cipher.png",
     "description": "A simple Python script that implements the Caesar Cipher algorithm to encrypt and decrypt messages by shifting letters by a specified number of positions. Supports both uppercase and lowercase letters, while leaving non-alphabetic characters unchanged.",
     "tags": [ "Python", "Caesar Cipher", "Encryption", "Decryption", "Substitution Cipher", "CLI Tool", "Text Security" ],
-    "demoUrl": "",
+    "demoUrl": "https://github.com/suhailm-in/PRODIGY_CS_01",
     "githubUrl": "https://github.com/suhailm-in/PRODIGY_CS_01"
   },
   {
@@ -136,7 +136,107 @@
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Port-Scanner.png",
     "description": "A fast, configurable Python port scanning and network reconnaissance tool for security professionals and network administrators. Supports single, multi, and range scans with multi-threading, configurable timeouts/retries, result logging, and multiple output formats to aid vulnerability assessment and asset discovery. Intended for authorized and ethical use only.",
     "tags": [ "Python", "Port Scanner", "Multithreading", "Network Reconnaissance", "TCP", "UDP", "Logging", "Range Scan", "CLI Tool" ],
-    "demoUrl": "",
+    "demoUrl": "https://github.com/suhailm-in/Port-Scanner",
     "githubUrl": "https://github.com/suhailm-in/Port-Scanner"
-  }
+  },
+  {
+  "id": "29",
+  "title": "Network-Hacking",
+  "category": "Cybersecurity",
+  "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Network%E2%80%91Hacking.png",
+  "description": "Network-Hacking is a practical guide and toolkit for wireless network hacking, forensic analysis, and penetration testing. It includes step-by-step instructions, command references, and usage tips for Wi‑Fi exploitation and wireless security assessments—intended for ethical and authorized use only.",
+  "tags": [ "Wireless Security", "Wi-Fi Exploitation", "Forensics", "Command References", "Network Analysis" ],
+  "demoUrl": "https://github.com/suhailm-in/Network-Hacking",
+  "githubUrl": "https://github.com/suhailm-in/Network-Hacking"
+},
+{
+  "id": "28",
+  "title": "Python Tkinter Program",
+  "category": "GUI",
+  "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Python_Tkinter_program%2C.png",
+  "description": "A collection of Python GUI applications built using the Tkinter library. Includes practical examples like a calculator, text-to-speech converter, file-to-audio converter, QR code generator, custom widgets, and multi-functional demos showcasing Tkinter's capabilities for event handling, interactive tools, and user-friendly interfaces.",
+  "tags": [ "Python", "Tkinter", "GUI","Text-to-Speech", "QR Code Generator", "Event Handling", "Custom Widgets" ],
+  "demoUrl": "https://github.com/suhailm-in/Python_Tkinter_program",
+  "githubUrl": "https://github.com/suhailm-in/Python_Tkinter_program"
+},
+{
+  "id": "27",
+  "title": "Python E-Commerce Project",
+  "category": "Web",
+  "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Pythion_E-Commerce_Project.png",
+  "description": "A modern, fully open-source eCommerce web application built with Python and Django. It includes essential online store functionalities such as user authentication, product management, shopping cart, order tracking, and a responsive UI. Perfect for learning and building a scalable eCommerce platform.",
+  "tags": [ "Python", "Django", "Bootstrap", "SQLite", "JavaScript", "Responsive UI", "Order Management", "Admin Dashboard" ],
+  "demoUrl": "https://github.com/suhailm-in/Pythion_E-Commerce_Project",
+  "githubUrl": "https://github.com/suhailm-in/Pythion_E-Commerce_Project"
+},
+{
+  "id": "26",
+  "title": "Python Online School Store",
+  "category": "Web Development",
+  "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/online-school-store.png",
+  "description": "A simple and user-friendly online school book store application that allows students, parents, and teachers to browse and purchase school books easily. Features include a clean layout, organized categories, add-to-cart functionality, and responsive design — perfect as a starting point for an educational eCommerce platform.",
+  "tags": [ "Python", "HTML", "CSS", "SCSS", "School Store", "Responsive UI"],
+  "demoUrl": "https://github.com/suhailm-in/Python_online-school-store",
+  "githubUrl": "https://github.com/suhailm-in/Python_online-school-store"
+},
+{
+  "id": "25",
+  "title": "Nmap-CheepSheet",
+  "category": "Cybersecurity",
+  "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Nmap-CheepSheet.png",
+  "description": "A compact and practical reference guide for Nmap, providing quick access to commonly used commands, options, and real-world examples. Ideal for network administrators, security professionals, and ethical hackers who need an efficient cheat sheet for network scanning and vulnerability assessment.",
+  "tags": [ "Nmap", "Network Scanning", "Cheat Sheet", "Reference Guide", "Vulnerability Assessment" ],
+  "demoUrl": "https://github.com/suhailm-in/Nmap-CheepSheet",
+  "githubUrl": "https://github.com/suhailm-in/Nmap-CheepSheet"
+},
+{
+  "id": "24",
+  "title": "Travel_project",
+  "category": "Web",
+  "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Travel_project.png",
+  "description": "A modern travel booking web application that allows users to discover, browse, and book holiday packages and dream destinations. Featuring a responsive design, interactive elements, and intuitive booking flow, this project demonstrates essential features of a travel portal.",
+  "tags": [ "Python" , "HTML", "SCSS", "JavaScript", "Responsive Design", "Interactive UI" ],
+  "demoUrl": "https://github.com/suhailm-in/Travel_project",
+  "githubUrl": "https://github.com/suhailm-in/Travel_project"
+},
+{
+  "id": "23",
+  "title": "Python_Travel-project",
+  "category": "Full-Stack Web Development",
+  "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Python_Travel-project.png",
+  "description": "A comprehensive full-stack travel booking web application built with Python, HTML, CSS, SCSS, and JavaScript. It allows users to browse destinations, explore packages, and book vacations with a dynamic and responsive UI.",
+  "tags": [ "Python" , "HTML", "SCSS", "JavaScript", "Full-Stack","Responsive Design", "Booking System", "Search & Filter" ],
+  "demoUrl": "https://github.com/suhailm-in/Python_Travel-project",
+  "githubUrl": "https://github.com/suhailm-in/Python_Travel-project"
+},
+{
+  "id": "22",
+  "title": "E-Commerce_sample",
+  "category": "Web",
+  "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/E-Commerce_sample.png",
+  "description": "A sample web-based e-commerce application built with Python, HTML, and CSS. It demonstrates core online storefront functionality including product listing, cart management, and a clean responsive UI, serving as a template for customizable shopping platforms.",
+  "tags": [ "E-Commerce", "Python", "HTML", "CSS", "Responsive UI", "Product Listing"],
+  "demoUrl": "https://github.com/suhailm-in/E-Commerce_sample",
+  "githubUrl": "https://github.com/suhailm-in/E-Commerce_sample"
+},
+{
+  "id": "21",
+  "title": "Pyhton_web_app_project",
+  "category": "Web",
+  "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Python_web_application.png",
+  "description": "A comprehensive Python-based web application that demonstrates robust backend logic, dynamic HTML template rendering, and custom CSS styling. Designed with a modular structure and scalable architecture, it serves as an excellent reference for modern web development using Python.",
+  "tags": [ "Python", "Django", "HTML", "CSS", "JavaScript", "Backend", "Frontend" ],
+  "demoUrl": "https://github.com/suhailm-in/Pyhton_web_app_project",
+  "githubUrl": "https://github.com/suhailm-in/Pyhton_web_app_project"
+},
+{
+  "id": "20",
+  "title": "Python_ToDo",
+  "category": "Web",
+  "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/Python_ToDo.png",
+  "description": "A simple and effective to-do list web application built with Python for backend logic and HTML/CSS for the user interface. Designed to help users manage daily tasks with an intuitive, minimal, and responsive interface.",
+  "tags": [ "Python", "To-Do App", "Task Management", "HTML", "CSS" ],
+  "demoUrl": "https://github.com/suhailm-in/Python_ToDo",
+  "githubUrl": "https://github.com/suhailm-in/Python_ToDo"
+}
 ]
