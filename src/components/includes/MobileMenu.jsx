@@ -39,6 +39,17 @@ const MobileMenu = ({ menu0pen, setMenuOpen }) => {
                 About
             </a>
             <a
+                href="#experience"
+                onClick={() => setMenuOpen(false)}
+                className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${
+                    menu0pen
+                        ? "opacity-100 translate-y-0"
+                        : "opacity-0 translate-y-5"
+                }`}
+            >
+                Experience
+            </a>
+            <a
                 href="#projects"
                 onClick={() => setMenuOpen(false)}
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${
@@ -49,7 +60,7 @@ const MobileMenu = ({ menu0pen, setMenuOpen }) => {
             >
                 Project
             </a>
-            <a
+            {/* <a
                 href="#article"
                 onClick={() => setMenuOpen(false)}
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${
@@ -59,7 +70,7 @@ const MobileMenu = ({ menu0pen, setMenuOpen }) => {
                 }`}
             >
                 Article
-            </a>
+            </a> */}
             <a
                 href="#contact"
                 onClick={() => setMenuOpen(false)}

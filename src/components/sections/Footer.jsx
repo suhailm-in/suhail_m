@@ -30,13 +30,22 @@ const Footer = () => {
                         <li>
                             <HashLink
                                 smooth
+                                to="/#experience"
+                                className="hover:text-cyan-400 transition-colors"
+                            >
+                                Experience
+                            </HashLink>
+                        </li>
+                        <li>
+                            <HashLink
+                                smooth
                                 to="/allprojects#projectspage"
                                 className="hover:text-cyan-400 transition-colors"
                             >
                                 All Projects
                             </HashLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <HashLink
                                 smooth
                                 to="/allarticles#articlespage"
@@ -44,7 +53,7 @@ const Footer = () => {
                             >
                                 All Articles
                             </HashLink>
-                        </li>
+                        </li> */}
                     </ul>
 
                     {/* Right - Social Icons */}

@@ -32,9 +32,9 @@ const Navbar = ({ menu0pen, setMenuOpen}) => {
                         <HashLink to="/#projects" className="text-gray-300 hover:text-white transition-colors">
                             Project
                         </HashLink>
-                        <HashLink to="/allarticles#articlespage" smooth className="text-gray-300 hover:text-white transition-colors">
+                        {/* <HashLink to="/allarticles#articlespage" smooth className="text-gray-300 hover:text-white transition-colors">
                             Article
-                        </HashLink>
+                        </HashLink> */}
                         <HashLink to="/#contact" className="text-gray-300 hover:text-white transition-colors">
                             Contact
                         </HashLink>
