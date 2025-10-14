@@ -1,4 +1,4 @@
-# Suhail M – Personal Portfolio Website
+# Suhail M – Personal Website
 
 A modern, responsive, and SEO-optimized personal portfolio built with **React**, **Vite**, and **Tailwind CSS**.  
 It showcases projects, professional experience, and expertise in **Cybersecurity**, **AI**, and **Web Development**.
