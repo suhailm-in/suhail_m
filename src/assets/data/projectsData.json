@@ -26,7 +26,7 @@
     "image": "https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/projects/flyairwayis.png",
     "description": "FlyAirways is a modern travel booking web application built with React.js, designed to make exploring destinations and booking vacations simple and seamless. It offers curated travel packages, secure booking, interactive components, and a responsive UI with integrated Firebase, Supabase, Firestore, Google OAuth, and user authentication.",
     "tags": [ "React", "Firebase", "Google OAuth", "Supabase", "Firestore", "Responsive UI"],
-    "demoUrl": "",
+    "demoUrl": "https://suhailm-in.github.io/flyairways",
     "githubUrl": "https://github.com/suhailm-in/flyairways"
   },
   {
