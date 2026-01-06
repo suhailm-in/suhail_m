@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.suhailm.in/sitemap.xml
+Sitemap: https://suhailm.in/sitemap.xml
