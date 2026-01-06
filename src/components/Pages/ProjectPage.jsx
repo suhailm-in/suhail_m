@@ -1,140 +1,147 @@
 import React, { useState } from "react";
 import projects from "../../assets/data/projectsData.json";
 import { ExternalLink, Github } from "lucide-react";
-import CustomSEO from "../includes/CustomSEO/CustomSEO";
+import CustomSEO from "../../components/seo/CustomSEO/CustomSEO";
+
 
 const ProjectPage = () => {
-    const [filter, setFilter] = useState("All");
-    const categories = ["All", "Web", "AI", "Cybersecurity", "GUI"];
+  const [filter, setFilter] = useState("All");
+  const categories = ["All", "Web", "AI", "Cybersecurity", "GUI"];
 
-    const filteredProjects =
-        filter === "All"
-            ? projects
-            : projects.filter((p) => p.category === filter);
-    const featuredProject = filteredProjects[0];
-    const otherProjects = filteredProjects.slice(1).sort((a, b) => b.id - a.id); // descending order
-    // const ListedProjects = filteredProjects.sort((a, b) => b.id - a.id); // descending order
-    // .sort((a, b) => a.id - b.id)
+  const filteredProjects =
+    filter === "All" ? projects : projects.filter((p) => p.category === filter);
+  const featuredProject = filteredProjects[0];
+  const otherProjects = filteredProjects.slice(1).sort((a, b) => b.id - a.id); // descending order
+  // const ListedProjects = filteredProjects.sort((a, b) => b.id - a.id); // descending order
+  // .sort((a, b) => a.id - b.id)
 
-    // JSON-LD structured data for Project Page
-    const jsonLd = {
-        "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        name: "Projects | Suhail M",
-        url: window.location.href,
-        description:
-            "A curated selection of projects in cybersecurity, AI, and web development by Suhail M.",
-    };
+  // JSON-LD structured data for Project Page
+  // const jsonLd = {
+  //     "@context": "https://schema.org",
+  //     "@type": "CollectionPage",
+  //     name: "Projects | Suhail M",
+  //     url: window.location.href,
+  //     description:
+  //         "A curated selection of projects in cybersecurity, AI, and web development by Suhail M.",
+  // };
 
-    return (
-        <section id="projectspage" className="relative bg-transparent py-20">
-            {/* Custom SEO for Project Page */}
-            <CustomSEO
-                title="Projects | Suhail M Portfolio"
-                description="Explore my portfolio projects demonstrating cybersecurity, AI, and web development expertise."
-                url={window.location.href}
-                image="https://raw.githubusercontent.com/suhailm-in/suhail_m/refs/heads/master/src/assets/images/screenshots/HomePage.png" // Optional OG image for projects
-                type="website"
-                jsonLd={jsonLd}
-            />
+  return (
+    <section id="projectspage" className="relative bg-transparent py-20">
+      {/* Custom SEO for Project Page */}
+      <CustomSEO
+        title="Projects | Suhail M"
+        description="Security tools, SaaS platforms, and software projects developed by Suhail M."
+        path="/projects"
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: "Projects by Suhail M",
+          url: "https://suhailm.in/projects",
+          author: {
+            "@type": "Person",
+            name: "Suhail M",
+            url: "https://suhailm.in",
+          },
+        }}
+      />
 
-            <div className="max-w-6xl mx-auto px-4 pt-14">
-                {/* Heading */}
-                <div className="text-center mb-8">
-                    <h2 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                        Projects Showcase
-                    </h2>
-                    <p className="text-gray-400 max-w-2xl mx-auto mt-4">
-                        {/* A curated selection of my best work blending innovation,
+      <div className="max-w-6xl mx-auto px-4 pt-14">
+        {/* Heading */}
+        <div className="text-center mb-8">
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            Projects Showcase
+          </h2>
+          <p className="text-gray-400 max-w-2xl mx-auto mt-4">
+            {/* A curated selection of my best work blending innovation,
                         performance, and user-focused design. */}
-                        A curated collection of projects demonstrating
-                        innovation, security, and high-performance solutions
-                        designed for exceptional user experiences.
-                    </p>
+            A curated collection of projects demonstrating innovation, security,
+            and high-performance solutions designed for exceptional user
+            experiences.
+          </p>
+        </div>
+
+        {/* Filter Buttons */}
+        <div className="flex justify-center gap-4 mb-12 flex-wrap">
+          {categories.map((cat) => (
+            <button
+              key={cat}
+              onClick={() => setFilter(cat)}
+              className={`px-5 py-2 rounded-full border transition-colors ${
+                filter === cat
+                  ? "bg-gradient-to-r from-cyan-500 to-blue-500 text-white border-transparent"
+                  : "border-cyan-500/30 text-cyan-400 hover:border-cyan-400 hover:text-cyan-300"
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+
+        {/* Masonry Grid */}
+        <div className="grid md:grid-cols-3 gap-8">
+          {filteredProjects.map((project, idx) => (
+            <div
+              key={project.id}
+              className={`relative flex flex-col p-4 rounded-xl shadow-lg backdrop-blur-sm border border-cyan-500/10 bg-gradient-to-br from-gray-800/70 via-gray-900/60 to-black/60 transition hover:shadow-cyan-500/20 hover:-translate-y-2 duration-300 ${
+                idx === 0 ? "md:col-span-2" : ""
+              }`}
+            >
+              {/* Project Image */}
+              <div className="relative w-full h-56 overflow-hidden rounded-t-xl">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition duration-500"
+                />
+              </div>
+
+              {/* Project Content */}
+              <div className="flex flex-col flex-grow pt-6">
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  {project.title}
+                </h3>
+                <p className="text-gray-300 text-sm mb-4">
+                  {project.description}
+                </p>
+
+                {/* Tags */}
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {project.tags?.map((tag, i) => (
+                    <span
+                      key={i}
+                      className="px-3 py-1 text-xs font-medium rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/30"
+                    >
+                      {tag}
+                    </span>
+                  ))}
                 </div>
 
-                {/* Filter Buttons */}
-                <div className="flex justify-center gap-4 mb-12 flex-wrap">
-                    {categories.map((cat) => (
-                        <button
-                            key={cat}
-                            onClick={() => setFilter(cat)}
-                            className={`px-5 py-2 rounded-full border transition-colors ${
-                                filter === cat
-                                    ? "bg-gradient-to-r from-cyan-500 to-blue-500 text-white border-transparent"
-                                    : "border-cyan-500/30 text-cyan-400 hover:border-cyan-400 hover:text-cyan-300"
-                            }`}
-                        >
-                            {cat}
-                        </button>
-                    ))}
+                {/* Links pinned to bottom */}
+                <div className="mt-auto flex items-center gap-4 pt-4 border-t border-gray-700/40">
+                  <a
+                    href={project.demoUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-cyan-400 hover:text-cyan-200 transition-colors"
+                  >
+                    <ExternalLink size={20} />
+                  </a>
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-cyan-400 hover:text-cyan-200 transition-colors"
+                  >
+                    <Github size={20} />
+                  </a>
                 </div>
-
-                {/* Masonry Grid */}
-                <div className="grid md:grid-cols-3 gap-8">
-                    {filteredProjects.map((project, idx) => (
-                        <div
-                            key={project.id}
-                            className={`relative flex flex-col p-4 rounded-xl shadow-lg backdrop-blur-sm border border-cyan-500/10 bg-gradient-to-br from-gray-800/70 via-gray-900/60 to-black/60 transition hover:shadow-cyan-500/20 hover:-translate-y-2 duration-300 ${
-                                idx === 0 ? "md:col-span-2" : ""
-                            }`}
-                        >
-                            {/* Project Image */}
-                            <div className="relative w-full h-56 overflow-hidden rounded-t-xl">
-                                <img
-                                    src={project.image}
-                                    alt={project.title}
-                                    className="w-full h-full object-cover transform group-hover:scale-105 transition duration-500"
-                                />
-                            </div>
-
-                            {/* Project Content */}
-                            <div className="flex flex-col flex-grow pt-6">
-                                <h3 className="text-xl font-semibold text-white mb-2">
-                                    {project.title}
-                                </h3>
-                                <p className="text-gray-300 text-sm mb-4">
-                                    {project.description}
-                                </p>
-
-                                {/* Tags */}
-                                <div className="flex flex-wrap gap-2 mb-4">
-                                    {project.tags?.map((tag, i) => (
-                                        <span
-                                            key={i}
-                                            className="px-3 py-1 text-xs font-medium rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/30"
-                                        >
-                                            {tag}
-                                        </span>
-                                    ))}
-                                </div>
-
-                                {/* Links pinned to bottom */}
-                                <div className="mt-auto flex items-center gap-4 pt-4 border-t border-gray-700/40">
-                                    <a
-                                        href={project.demoUrl}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="text-cyan-400 hover:text-cyan-200 transition-colors"
-                                    >
-                                        <ExternalLink size={20} />
-                                    </a>
-                                    <a
-                                        href={project.githubUrl}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="text-cyan-400 hover:text-cyan-200 transition-colors"
-                                    >
-                                        <Github size={20} />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
+              </div>
             </div>
-        </section>
-    );
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default ProjectPage;

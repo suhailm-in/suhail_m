@@ -116,7 +116,7 @@ const Project = () => {
                 {/* Button */}
                 <div className="text-center mt-16">
                     <HashLink
-                        to="/allprojects#projectspage"
+                        to="/projects#projectspage"
                         smooth
                         className="inline-flex items-center gap-3 px-8 py-3 rounded-full border border-cyan-400/50 text-cyan-400 hover:bg-cyan-500/10 hover:gap-4 transition-all duration-300"
                     >

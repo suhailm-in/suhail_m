@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import articles from "../../assets/data/articlesData.json";
+import CustomSEO from "../../components/seo/CustomSEO/CustomSEO";
 
 const ArticlePage = () => {
     const featured = articles.find((item) => item.featured);
@@ -8,6 +9,24 @@ const ArticlePage = () => {
 
     return (
         <section id="articlespage" className="bg-transparent py-20">
+
+            <CustomSEO
+                title="Articles | Suhail M"
+                description="Technical articles by Suhail M covering cybersecurity, DevSecOps, secure software engineering, and AI."
+                path="/articles"
+                jsonLd={{
+                    "@context": "https://schema.org",
+                    "@type": "Blog",
+                    "name": "Articles by Suhail M",
+                    "url": "https://suhailm.in/articles",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Suhail M",
+                        "url": "https://suhailm.in"
+                    }
+                }}
+            />
+
             <div className="max-w-6xl mx-auto px-4 pt-14">
                 {/* Heading */}
                 <h2 className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
