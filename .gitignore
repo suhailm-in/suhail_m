@@ -28,7 +28,3 @@ dist-ssr
 .env.local
 
 .temp
-
-# build output
-dist/
-build/
